@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api', // Backend URL
+  baseURL: 'https://alvin-todo-backend.onrender.com/api', // Backend URL
 });
 
 // Add Authorization header if token exists
