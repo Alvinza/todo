@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000', // Adjust to your backend URL
+  baseURL: 'https://alvin-todo-backend.onrender.com', // Adjust to your backend URL
 });
 
 export const login = (userData) => API.post('/auth/login', userData);
